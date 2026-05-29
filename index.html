@@ -4,37 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logic Vortex // Portfolio</title>
-    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Custom Cursor Elements -->
     <div id="cursor-dot"></div>
     <div id="cursor-ring"></div>
 
-    <!-- Background Music -->
     <audio id="bg-music" loop>
         <source src="music.mp3" type="audio/mp3">
     </audio>
 
-    <!-- Floating Audio Control -->
     <div class="audio-controls hidden" id="audio-panel">
         <button class="audio-btn" id="mute-btn"><i class="fa-solid fa-volume-high"></i></button>
         <span class="audio-status-text">AUDIO_ON</span>
     </div>
 
-    <!-- Background Video & Cyber Effects -->
     <div class="video-bg">
         <video autoplay muted loop playsinline id="main-video">
-            <source src="background.mp4" type="video/mp4">
+            <source src="red_vortex_video.mp4" type="video/mp4">
         </video>
         <div class="red-overlay"></div>
         <div class="scanlines"></div>
     </div>
 
-    <!-- 1. Intro Screen -->
     <div id="intro">
         <div class="intro-box">
             <h1 class="glitch" data-text="LOGIC VORTEX">LOGIC VORTEX</h1>
@@ -43,10 +37,8 @@
         </div>
     </div>
 
-    <!-- Main Portfolio Hub -->
     <div id="main-content" class="hidden">
         
-        <!-- Top Status Bar -->
         <div class="top-bar">
             <div><span class="red-txt">CORE_STATUS:</span> OPERATIONAL</div>
             <div class="top-bar-center">LOGIC_VORTEX_OS_V.2.0.26</div>
@@ -56,7 +48,6 @@
         </div>
 
         <div class="main-layout">
-            <!-- Sidebar Navigation -->
             <aside class="sidebar">
                 <a href="#" class="nav-link">
                     <div class="nav-item active">
@@ -79,10 +70,8 @@
                 </div>
             </aside>
 
-            <!-- Main Content Area -->
             <main class="content-area">
                 
-                <!-- Epic Banner Container -->
                 <div class="banner-container">
                     <video autoplay muted loop playsinline class="banner-video">
                         <source src="banner.mp4" type="video/mp4">
@@ -97,7 +86,6 @@
                 
                 <div class="file-grid">
                     
-                    <!-- Project Card 1 -->
                     <div class="file-card">
                         <div class="file-icon"><i class="fa-solid fa-box-archive"></i></div>
                         <div class="file-details">
@@ -107,7 +95,6 @@
                         <a href="#" class="dl-btn">EXECUTE_VIEW</a>
                     </div>
 
-                    <!-- Project Card 2 -->
                     <div class="file-card">
                         <div class="file-icon"><i class="fa-solid fa-chart-line"></i></div>
                         <div class="file-details">
@@ -117,7 +104,6 @@
                         <a href="#" class="dl-btn">EXECUTE_VIEW</a>
                     </div>
 
-                    <!-- Project Card 3 -->
                     <div class="file-card">
                         <div class="file-icon"><i class="fa-solid fa-shield-halved"></i></div>
                         <div class="file-details">
@@ -131,7 +117,6 @@
             </main>
         </div>
 
-        <!-- Bottom Running Ticker -->
         <div class="bottom-ticker">
             <marquee behavior="scroll" direction="left">
                 // SYSTEM ALERT: LOGIC VORTEX CYBERNETIC HUB ONLINE // INITIATING INTELLECTUAL STREAM // STANDBY FOR IMMERSIVE DIGITAL INTERACTION // TRANSLATION MATRIX REGISTERED [EN_AR] //
@@ -139,7 +124,6 @@
         </div>
     </div>
 
-    <!-- External Script Call -->
     <script src="script.js"></script>
 </body>
 </html>
