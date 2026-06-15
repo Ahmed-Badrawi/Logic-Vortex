@@ -1,10 +1,10 @@
 # AI Starter Kit – Next.js AI Website Templates and SaaS Starter Kit
 #### Preview
 
- - [Demo](https://themewagon.github.io/aistarterkit/)
+ - [Demo](https://ahmed-badrawi.github.io/Logic-Vortex/)
 
 #### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/aistarterkit/)
+ - [Download from ThemeWagon](https://ahmed-badrawi.github.io/Logic-Vortex/)
 
 ## Getting Started
 
